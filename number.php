@@ -14,12 +14,6 @@ class number{
         $this->total = $this->sum * $this->cost;
         echo "Total biaya angka($this->total)";
     }
-
-    public function getNumber()
-    {
-        return "Number";
-    }
 }
 $number = new number;
 echo $number->checkNumber();
-echo $number->getNumber();

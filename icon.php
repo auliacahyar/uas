@@ -14,12 +14,6 @@ class icon {
         $this->total = $this->sum * $this->cost;
         echo "Total biaya icon($this->total)";
     }
-
-    public function getIcon()
-    {
-        return "Icon";
-    }
 }
 $icon = new icon;
 echo $icon->checkIcon();
-echo $icon->getIcon();

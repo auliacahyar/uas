@@ -14,12 +14,6 @@ class uppercase{
         $this->total = $this->sum * $this->cost;
         echo "Total biaya kapital($this->total)";
     }
-
-    public function getUppercase()
-    {
-        return "Uppercase";
-    }
 }
 $uppercase = new uppercase;
 echo $uppercase->checkUppercase();
-echo $uppercase->getUppercase();

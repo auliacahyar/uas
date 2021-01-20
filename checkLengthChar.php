@@ -18,12 +18,6 @@ class checkLengthChar{
             return "Maka total biaya - 0";
         }
     }
-
-    public function getLength()
-    {
-        return "Length";
-    }
 }
 $checkLengthChar = new checkLengthChar;
 echo $checkLengthChar->checkLength();
-echo $checkLengthChar->getLength();

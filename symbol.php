@@ -13,12 +13,6 @@ class symbol{
         $this->cost = $this->sum / 2;
         echo "Biaya symbol($this->cost)";
     }
-
-    public function getSymbol()
-    {
-        return "Symbol";
-    }
 }
 $symbol = new symbol;
 echo $symbol->checkSymbol();
-echo $symbol->getSymbol();
