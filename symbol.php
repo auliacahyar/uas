@@ -1,9 +1,9 @@
 <?php
 
 class symbol{
-    public $textSymbol = "Doni berlari-lari terbirit-birit";
-    public $cost;
-    public $sum;
+    private $textSymbol = "Doni berlari-lari terbirit-birit";
+    private $cost;
+    private $sum;
 
     public function checkSymbol() 
     {
@@ -14,5 +14,3 @@ class symbol{
         echo "Biaya symbol($this->cost)";
     }
 }
-$symbol = new symbol;
-echo $symbol->checkSymbol();
